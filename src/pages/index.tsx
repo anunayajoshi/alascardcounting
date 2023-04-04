@@ -8,12 +8,19 @@ export default function Home() {
   return (
     <div className="h-screen bg-pink-200">
       <div className="flex items-center justify-center w-screen bg-white rounded-lg shadow-lg">
-        <div className="p-8 py-5">
+        <div className="flex flex-row p-8 py-5">
           <Image
             src="/alas.jpg"
             alt="Your Image"
-            width={600}
-            height={600}
+            width={400}
+            height={500}
+            className="rounded-lg"
+          />
+          <Image
+            src="/alasgirl.jpg"
+            alt="Your Image"
+            width={300}
+            height={200}
             className="rounded-lg"
           />
         </div>
